@@ -6,6 +6,10 @@ export default {
   coverageProvider: "v8",
   testEnvironment: "node",
   transform: {
-    '.+\\.(ts|tsx)$': 'ts-jest',
+    '.+\\.ts$': 'ts-jest'
+  },
+  moduleNameMapper: {
+    '@/tests/(.*)': '<rootDir>/tests/$1',
+    '@/(.*)': '<rootDir>/src/$1'
   }
 }
