@@ -7,7 +7,7 @@
       "sourceMap": true,
       "rootDirs": ["src", "tests"], 
       "baseUrl": "src",
-      "strictNullChecks": true,
+      "strictNullChecks": false,
       "removeComments": true,
       "paths": {
         "@/tests/*": ["../tests/*"],
