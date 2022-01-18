@@ -11,6 +11,7 @@
       "@typescript-eslint/no-misused-promises": "off",
       "@typescript-eslint/consistent-type-definitions": "off",
       "@typescript-eslint/no-namespace": "off",
+      "@typescript-eslint/restrict-template-expressions": "off",
       "no-console": "warn",
       "@typescript-eslint/naming-convention": "off",
       "import/export": "off"
